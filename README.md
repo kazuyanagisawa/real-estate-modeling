@@ -17,7 +17,7 @@ We start with descriptive analysis, fit a baseline linear model, diagnose misspe
 
 **Final model (chosen):**
 ```math
-\log(\text{price}) = \beta_0 + \beta_1\text{bed} + \beta_2\text{bath} + \beta_3\text{house\_size} + \beta_4\text{house\_size}^2 + \beta_5\text{acre\_lot} + \beta_6\text{acre\_lot}^2 + \beta_7(\text{bath} \times \text{house\_size}) + \epsilon$$
+\log(\text{price}) = \beta_0 + \beta_1\text{bed} + \beta_2\text{bath} + \beta_3\text{house\_size} + \beta_4\text{house\_size}^2 + \beta_5\text{acre\_lot} + \beta_6\text{acre\_lot}^2 + \beta_7(\text{bath} \times \text{house\_size}) + \epsilon
 ```
 \
 **Why:** Captures diminishing returns for size/lot and the way bathrooms’ value scales with house size.
