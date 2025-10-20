@@ -88,8 +88,8 @@ We start with descriptive analysis, fit a baseline linear model, diagnose misspe
 
 ## Deliverables
 
-- Final Report (PDF): output/real_estate_modeling_project_report.pdf
-- Source (R Markdown): real-estate-regression-modeling-final.Rmd
+- [Final Report (PDF)](output/real_estate_modeling_project_report.pdf)
+- [Source (R Markdown)](real-estate-regression-modeling-final.Rmd)
 
 ---
 
