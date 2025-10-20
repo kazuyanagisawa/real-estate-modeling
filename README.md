@@ -25,12 +25,14 @@ $$
 ---
 
 ## Repo Structure
-real-estate-modeling/
+
+```
 ├── real-estate-regression-modeling-final.Rmd   # main analysis (knit)
 ├── real_estate_sample.csv                      # sample data required to run code
 ├── output/
 │   └── real_estate_project_report.pdf          # final report (knit from Rmd)
 └── README.md
+```
 
 - **Rmd in root** so the relative path `read_csv("real_estate_sample.csv")` works.  
 - **Final PDF** lives in `/output` for easy viewing.
