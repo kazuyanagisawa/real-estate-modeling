@@ -1,0 +1,33 @@
+# R and RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Cache and temporary files
+.Rapp.history
+.RDataTmp
+*.utf8.md
+*_cache/
+cache/
+*_files/
+
+# Output and reports (keep PDFs in output folder only)
+*.pdf
+!output/*.pdf
+output/*.html
+output/*.docx
+
+# System or IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Large or local data
+*.csv
+!real_estate_sample.csv
+
+# Logs and temp files
+*.log
+*.tmp
